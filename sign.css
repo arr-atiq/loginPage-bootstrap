@@ -3,12 +3,27 @@ body {
     padding: 0;
     height: 100vh;
   }
-  #login .container #login-row #login-column #login-box {
-    margin-top: 120px;
+  #login .container #login-row #login-column #login-box{
+    margin-top: 50px;
     max-width: 600px;
     height: 320px;
     box-shadow: 5px 5px 15px black;
     background-color: white;
+  }
+  #table-column{
+      margin-left: 40px;
+      margin-top: 50px;
+  }
+  #update-tableData .container #update-row #update-column #update-box {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    max-width: 600px;
+    height: 320px;
+    box-shadow: 5px 5px 15px black;
+    background-color: white;
+  }
+  #update-form{
+    padding: 25px;
   }
   #login .container #login-row #login-column #login-box #login-form {
     padding: 20px;
